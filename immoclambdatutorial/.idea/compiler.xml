@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="imooclambdalesson04" />
+        <module name="imooclambdalesson02" />
+        <module name="imooclambdaweb" />
+        <module name="imooclambda-lesson04" />
+        <module name="imooclambdalesson04project" />
+        <module name="imooclambda-lesson02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="imooclambda-lesson03" target="1.5" />
+      <module name="imooclambdalesson01" target="1.8" />
+      <module name="imooclambdalesson03stream" target="1.8" />
+      <module name="imooclambdalesson04humenresources" target="1.8" />
+      <module name="imooclambdatest" target="1.8" />
+      <module name="imooclambdaweb" target="1.8" />
+      <module name="test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="imooclambda-lesson02" options="-parameters" />
+      <module name="imooclambda-lesson04" options="-parameters" />
+      <module name="imooclambdalesson04humenresources" options="-parameters" />
+      <module name="imooclambdalesson04project" options="-parameters" />
+      <module name="imooclambdaweb" options="-parameters" />
+    </option>
+  </component>
+</project>
